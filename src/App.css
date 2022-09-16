@@ -9,7 +9,7 @@ html {
 }
 ::-moz-selection {
   background-color: #000;
-  color: #fff;
+  color: white;
 }
 ::-o-selection {
   background-color: #000;
