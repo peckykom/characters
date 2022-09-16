@@ -1,66 +1,4 @@
-@font-face {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'),
-  url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwaPGQ3q5d0N7w.woff2)
-  format('woff2');
-  unicode-range: u+0100-024f, u+0259, u+1e??, u+2020, u+20a0-20ab,
-  u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
-}
-@font-face {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 300;
-  src: local('Lato Light'), local('Lato-Light'),
-  url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPGQ3q5d0.woff2)
-  format('woff2');
-  unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da,
-  u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212,
-  u+2215, u+feff, u+fffd;
-}
-@font-face {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'),
-  url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2)
-  format('woff2');
-  unicode-range: u+0100-024f, u+0259, u+1e??, u+2020, u+20a0-20ab,
-  u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
-}
-@font-face {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 400;
-  src: local('Lato Regular'), local('Lato-Regular'),
-  url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXiWtFCc.woff2)
-  format('woff2');
-  unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da,
-  u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212,
-  u+2215, u+feff, u+fffd;
-}
-@font-face {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'),
-  url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2)
-  format('woff2');
-  unicode-range: u+0100-024f, u+0259, u+1e??, u+2020, u+20a0-20ab,
-  u+20ad-20cf, u+2113, u+2c60-2c7f, u+a720-a7ff;
-}
-@font-face {
-  font-family: Lato;
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lato Bold'), local('Lato-Bold'),
-  url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2)
-  format('woff2');
-  unicode-range: u+00??, u+0131, u+0152-0153, u+02bb-02bc, u+02c6, u+02da,
-  u+02dc, u+2000-206f, u+2074, u+20ac, u+2122, u+2191, u+2193, u+2212,
-  u+2215, u+feff, u+fffd;
-}
+
 html {
   box-sizing: border-box;
 }
@@ -84,7 +22,7 @@ html {
 body {
   background: #182d4f;
   font-size: 100%;
-  font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", Arial, sans-serif;
   font-weight: 400;
   text-align: center;
   margin: 0;
