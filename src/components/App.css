@@ -1,0 +1,79 @@
+
+li:nth-child(5n + 1) article {
+  background: #3b9ae1;
+}
+li:nth-child(5n + 2) article {
+  background: #f6be00;
+}
+li:nth-child(5n + 3) article {
+  background: #e64134;
+}
+li:nth-child(5n + 4) article {
+  background: #eb70b1;
+}
+li:nth-child(5n + 5) article {
+  background: #0f1a5f;
+}
+
+article {
+  color: #fff;
+  font-size: 0.875em;
+  font-weight: 700;
+  background: #9f3fa3;
+  border: 0.25em solid transparent;
+  border-radius: 0.5625em;
+  width: 100%;
+  padding: 0.625em 0.5em;
+  -webkit-transition: border-color 0.15s ease-in-out,
+  opacity 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, opacity 0.15s ease-in-out;
+}
+article strong {
+  color: #fff;
+  font-weight: 300;
+}
+article span {
+  font-weight: 400;
+  opacity: 0.75;
+  display: block;
+}
+.faded {
+  opacity: 0.35;
+}
+.gold {
+  border-color: #ff0;
+}
+.add-new {
+  max-width: 18.75em;
+  margin: 2em auto 3em;
+}
+.add-new input {
+  color: #fff;
+  font-size: 0.875em;
+  background: none;
+  border: none;
+  border-bottom: 0.125em solid hsla(0, 0%, 100%, 0.9);
+  display: block;
+  text-align: center;
+  margin: 0 auto 0.5em;
+}
+.add-new input:focus {
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+.add-new input:first-child {
+  font-weight: 700;
+  max-width: 100%;
+}
+.add-new input:last-child {
+  font-size: 0.8125em;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  article {
+    font-size: 0.75em;
+  }
+}

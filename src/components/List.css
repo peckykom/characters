@@ -1,0 +1,67 @@
+ul {
+    max-width: 29.375em;
+    grid-row-gap: 1.125em;
+    padding-left: 0;
+}
+.list,
+ul {
+    display: grid;
+}
+.list {
+    grid-template-columns: 1fr 20fr 1fr;
+    justify-items: start;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.delete, .cool {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    width: 4.25em;
+    padding: 0.75em 1.5em 0.75em 0;
+    text-align: right;
+}
+.delete svg {
+    transform: rotate(0deg);
+}
+
+.delete:hover svg, .delete:active svg {
+    fill: #bf2222;
+    transform: rotate(90deg);
+    transition: 0.2s linear;
+}
+
+input.cool {
+    border: none;
+    background-color: transparent;
+    padding-left: 1.5em;
+    padding-right: 0;
+    text-align: left;
+}
+.list-enter-active,
+.list-exit-active {
+    transition: all 0.2s;
+}
+
+.list-enter {
+    opacity: 0;
+    transform: scale(0.75);
+}
+
+.list-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.list-exit {
+    opacity: 1;
+}
+
+.list-exit-active {
+    opacity: 0;
+    transform: scale(0.75);
+}
